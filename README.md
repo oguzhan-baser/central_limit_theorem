@@ -24,19 +24,19 @@ Scripts of the experiments are given in the repository.
 
 The results of the experiments are below. As n increases, the sums are observed to converge to the corresponding Gaussian CDF/ PDF.
 
-1000 samples of sum of n=[1 2 5 10 20 40] IID Uniform R.V. are put to historgrams plotted below. 
+* 1000 samples of sum of n=[1 2 5 10 20 40] IID Uniform R.V. are put to historgrams plotted below. 
 
 ![](images/uniform.jpg)
 
-1000 samples of sum of n=[1 2 5 10 20 40] IID Exponential R.V. are put to historgrams plotted below. 
+* 1000 samples of sum of n=[1 2 5 10 20 40] IID Exponential R.V. are put to historgrams plotted below. 
 
 ![](images/exponential.jpg)
 
-1000 samples of sum of n=[1 2 5 10 20 40] IID Bernoulli (with p=0.5) R.V. are put to historgrams plotted below. 
+* 1000 samples of sum of n=[1 2 5 10 20 40] IID Bernoulli (with p=0.5) R.V. are put to historgrams plotted below. 
 
 ![](images/bernoulli.jpg)
 
-1000 samples of sum of n=[1 2 5 10 20 40] IID Poisson R.V. are put to historgrams plotted below. 
+* 1000 samples of sum of n=[1 2 5 10 20 40] IID Poisson R.V. are put to historgrams plotted below. 
 
 ![](images/poisson.jpg)
 

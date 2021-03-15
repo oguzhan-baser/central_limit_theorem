@@ -10,13 +10,13 @@ Briefly, the theorem implies that: As n increases, the sum of n IID random varia
 
 Following four experiments with four different probability functions designed to show the sums converges to Gaussian indeed. The probability functions used in these experiments specified below:
 
-1st experiment: [Uniform R.V.](https://en.wikipedia.org/wiki/Continuous_uniform_distribution)
 
-2nd experiment: [Exponential R.V](https://en.wikipedia.org/wiki/Exponential_distribution)
-
-3rd experiment: [Bernoulli R.V](https://en.wikipedia.org/wiki/Bernoulli_distribution)
-
-4th experiment: [Poisson R.V.](https://en.wikipedia.org/wiki/Poisson_distribution)
+The Experiment Number | The Type of The Individual RV
+:---: | :---:
+1st experiment | [Uniform R.V.](https://en.wikipedia.org/wiki/Continuous_uniform_distribution)
+2nd experiment | [Exponential R.V](https://en.wikipedia.org/wiki/Exponential_distribution)
+3rd experiment | [Bernoulli R.V](https://en.wikipedia.org/wiki/Bernoulli_distribution)
+4th experiment | [Poisson R.V.](https://en.wikipedia.org/wiki/Poisson_distribution)
 
 For all experiments, 1000 samples of random sums ![equation](https://render.githubusercontent.com/render/math?math=X_1%2BX_2%2B\ldots%2BX_n)  are generated for corresponding n values. Then, they are normalized and shown on a histogram. n values used in these experiments are chosen 1, 2, 5, 10, 20, 40 for demonstration purposes. The resulting histograms are plotted with a Gaussian probability distribution function ([PDF](https://en.wikipedia.org/wiki/Probability_density_function)) or Gaussian cumulative distribution function ([CDF](https://en.wikipedia.org/wiki/Cumulative_distribution_function)) according to the context of the experiment.
 
@@ -24,8 +24,19 @@ Scripts of the experiments are given in the repository.
 
 The results of the experiments are below. As n increases, the sums are observed to converge to the corresponding Gaussian CDF/ PDF.
 
+1000 samples of sum of n=[1 2 5 10 20 40] IID Uniform R.V. are put to historgrams plotted below. 
+
 ![](images/uniform.jpg)
+
+1000 samples of sum of n=[1 2 5 10 20 40] IID Exponential R.V. are put to historgrams plotted below. 
+
 ![](images/exponential.jpg)
+
+1000 samples of sum of n=[1 2 5 10 20 40] IID Bernoulli (with p=0.5) R.V. are put to historgrams plotted below. 
+
 ![](images/bernoulli.jpg)
+
+1000 samples of sum of n=[1 2 5 10 20 40] IID Poisson R.V. are put to historgrams plotted below. 
+
 ![](images/poisson.jpg)
 

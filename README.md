@@ -4,7 +4,7 @@ This simple project is designed to observe the implication of [Central Limit The
 
 The Central Limit Theorem is stated as follows:
 
-Given ![equation](https://render.githubusercontent.com/render/math?math=X_1,X_2,\ldots,X_n), a sequence of IID random variables with expected value ![equation](https://render.githubusercontent.com/render/math?math=\mu_x) and variance ![equation](https://render.githubusercontent.com/render/math?math=\sigma_x^2), the CDF of ![equation](https://render.githubusercontent.com/render/math?math=Z_n=\sum_{i=1}^{n}\frac{X_i-n\mu_X}{\sqrt{\left(n\sigma_X^2\right)}}) has the property ![equation](https://render.githubusercontent.com/render/math?math={lim}_{n\rightarrow\infty}{F_{Z_n}}\left(z\right)=\Phi\left(z\right).)
+Given ![equation](https://render.githubusercontent.com/render/math?math=X_1,X_2,\ldots,X_n), a sequence of IID random variables with expected value ![equation](https://render.githubusercontent.com/render/math?math=\mu_x) and variance ![equation](https://render.githubusercontent.com/render/math?math=\sigma_x^2), the CDF of ![equation](https://render.githubusercontent.com/render/math?math=Z_n=\sum_{i=1}^{n}\frac{X_i-n\mu_X}{\sqrt{\left(n\sigma_X^2\right)}}) has the property ![equation](https://render.githubusercontent.com/render/math?math={lim}_{n\rightarrow\infty}{F_{Z_n}}\left(z\right)=\Phi\left(z\right).) ![equation](https://render.githubusercontent.com/render/math?math=[1]^{ref})
 
 Briefly, the theorem implies that: As n increases, the sum of n IID random variables converges to a [Gaussian Distribution](https://en.wikipedia.org/wiki/Normal_distribution). 
 
@@ -40,3 +40,4 @@ The results of the experiments are below. As n increases, the sums are observed 
 
 ![](images/poisson.jpg)
 
+[1] Yates, R. D. & Goodman, D. J. (2013), *Probability and Stochastic Processes - a Friendly Introduction for Electrical and Computer Engineers* [2nd ed.], New Jersey: WILEY
